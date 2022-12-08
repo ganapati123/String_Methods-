@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slice</title>
+</head>
+<body>
+    <script>
+        let x = 'JAVA SCRIPT'
+        console.log(x.slice(0,7))//JAVA SC  here space also consider as a character
+        console.log(x.slice(3,7))//A SC
+        console.log(x.slice(5))//SCRIPT
+        console.log(x.slice(4))// SCRIPT here space also consider
+
+        console.log(x.slice(-1))//T
+        console.log(x.slice(-5))//CRIPT
+        console.log(x.slice(-7))// SCRIPT
+        console.log(x.slice(-11))//JAVA SCRIPT
+
+
+        console.log(x.slice(-1,-7))//This is wrong type
+        console.log(x.slice(-11,-1))//JAVA SCRIPR
+        console.log(x.slice(-6,-1))//JAVA SC
+
+
+    </script>
+</body>
+</html>
